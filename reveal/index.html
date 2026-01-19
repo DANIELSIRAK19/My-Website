@@ -3,39 +3,37 @@
 <head>
   <meta charset="utf-8">
   <title>My Reveal.js Presentation</title>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/theme/sky.css"> <!-- non-default theme -->
+
+  <!-- Reveal.js styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/theme/solarized.css">
+
+  <style>
+    /* optional custom CSS */
+  </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
-      <section>
-      <h2>Slide 1: Introduction</h2>
-      <p>Welcome to my Reveal.js presentation.</p>
-      <img src=https://www.topgear.com/sites/default/files/cars-car/carousel/2020/09/_atf5691.jpeg?w=892&h=502 alt="Logo" width="200">
-      </section>
-      
-      <section>Slide 1: Welcome 
-      </section>
+      <section>Slide 1: Welcome</section>
       <section>Slide 2: About</section>
       <section>Slide 3: Tutorials</section>
       <section>
         Slide 4: Projects
-        <section>Slide 4a: Project 1</section> <!-- vertical navigation -->
+        <section>Slide 4a: Project 1</section>
         <section>Slide 4b: Project 2</section>
       </section>
       <section>Slide 5: Contact</section>
     </div>
   </div>
 
-  <script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
+  <!-- Reveal.js scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.js"></script>
   <script>
     Reveal.initialize({
       hash: true,
-      slideNumber: true,
-      plugins: [ RevealMarkdown, RevealHighlight ]
+      slideNumber: true
     });
   </script>
 </body>
 </html>
-
